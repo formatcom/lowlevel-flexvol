@@ -1,0 +1,12 @@
+- agregar modulos al proyecto
+
+$ git submodule add https://github.com/user/repo.git src/vendor/github.com/spf13/cobra
+$ cd src/vendor/github.com/spf13/cobra
+$ git checkout v0.0.5
+$ cd ../../../../
+$ git add -A
+$ git commit
+
+- clonar proyecto
+
+$ git clone -b {version} --recursive https://github.com/formatcom/lowlevel-flexvol.git
