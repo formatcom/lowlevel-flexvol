@@ -1,2 +1,4 @@
-flexvol
 bin
+pkg
+flexvol
+src/golang.org
